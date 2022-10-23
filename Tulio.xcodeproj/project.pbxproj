@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		D28B5BFF2904D27A002C0135 /* TulioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28B5BFE2904D27A002C0135 /* TulioApp.swift */; };
-		D28B5C012904D27A002C0135 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28B5C002904D27A002C0135 /* ContentView.swift */; };
 		D28B5C032904D27C002C0135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28B5C022904D27C002C0135 /* Assets.xcassets */; };
 		D28B5C062904D27C002C0135 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28B5C052904D27C002C0135 /* Preview Assets.xcassets */; };
 		D28B5C102904D27C002C0135 /* TulioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28B5C0F2904D27C002C0135 /* TulioTests.swift */; };
 		D28B5C1A2904D27C002C0135 /* TulioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28B5C192904D27C002C0135 /* TulioUITests.swift */; };
 		D28B5C1C2904D27C002C0135 /* TulioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28B5C1B2904D27C002C0135 /* TulioUITestsLaunchTests.swift */; };
+		D28B5C292904D7F5002C0135 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28B5C282904D7F5002C0135 /* ViewRouter.swift */; };
+		D28B5C2D2904D8F1002C0135 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28B5C2C2904D8F1002C0135 /* UploadView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		D28B5BFB2904D27A002C0135 /* Tulio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tulio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D28B5BFE2904D27A002C0135 /* TulioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TulioApp.swift; sourceTree = "<group>"; };
-		D28B5C002904D27A002C0135 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D28B5C022904D27C002C0135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D28B5C052904D27C002C0135 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D28B5C0B2904D27C002C0135 /* TulioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TulioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +44,8 @@
 		D28B5C152904D27C002C0135 /* TulioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TulioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D28B5C192904D27C002C0135 /* TulioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TulioUITests.swift; sourceTree = "<group>"; };
 		D28B5C1B2904D27C002C0135 /* TulioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TulioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D28B5C282904D7F5002C0135 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		D28B5C2C2904D8F1002C0135 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				D28B5BFE2904D27A002C0135 /* TulioApp.swift */,
-				D28B5C002904D27A002C0135 /* ContentView.swift */,
+				D28B5C282904D7F5002C0135 /* ViewRouter.swift */,
+				D28B5C2C2904D8F1002C0135 /* UploadView.swift */,
 				D28B5C022904D27C002C0135 /* Assets.xcassets */,
 				D28B5C042904D27C002C0135 /* Preview Content */,
 			);
@@ -257,8 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D28B5C012904D27A002C0135 /* ContentView.swift in Sources */,
+				D28B5C292904D7F5002C0135 /* ViewRouter.swift in Sources */,
 				D28B5BFF2904D27A002C0135 /* TulioApp.swift in Sources */,
+				D28B5C2D2904D8F1002C0135 /* UploadView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
